@@ -22,7 +22,8 @@ class HomeNavigationStackView: UIStackView{
     //init뭐였더라
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+        heightAnchor.constraint(equalToConstant: 80).isActive = true
+        tinderIconImage.contentMode = .scaleAspectFit
         //for 부분에 뭐오는거지
         settingButton.setImage(#imageLiteral(resourceName: "top_left_profile").withRenderingMode(.alwaysOriginal), for: .normal)
         messageButton.setImage(#imageLiteral(resourceName: "top_messages_icon").withRenderingMode(.alwaysOriginal), for: .normal)
