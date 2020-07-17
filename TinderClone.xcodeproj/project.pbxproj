@@ -16,6 +16,7 @@
 		567D98A824BC241400DDBFF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D98A724BC241400DDBFF2 /* Extensions.swift */; };
 		567D98AA24BC246000DDBFF2 /* HomeNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D98A924BC246000DDBFF2 /* HomeNavigationStackView.swift */; };
 		567D98AC24BED9F300DDBFF2 /* BottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D98AB24BED9F300DDBFF2 /* BottomControlStackView.swift */; };
+		567D98AE24C02D2400DDBFF2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D98AD24C02D2400DDBFF2 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		567D98A724BC241400DDBFF2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		567D98A924BC246000DDBFF2 /* HomeNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationStackView.swift; sourceTree = SOURCE_ROOT; };
 		567D98AB24BED9F300DDBFF2 /* BottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomControlStackView.swift; sourceTree = SOURCE_ROOT; };
+		567D98AD24C02D2400DDBFF2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				567D98A924BC246000DDBFF2 /* HomeNavigationStackView.swift */,
 				567D98AB24BED9F300DDBFF2 /* BottomControlStackView.swift */,
+				567D98AD24C02D2400DDBFF2 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567D98AE24C02D2400DDBFF2 /* CardView.swift in Sources */,
 				0459065224B984DF00070381 /* AppDelegate.swift in Sources */,
 				0459065424B984DF00070381 /* SceneDelegate.swift in Sources */,
 				567D98AA24BC246000DDBFF2 /* HomeNavigationStackView.swift in Sources */,
