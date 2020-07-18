@@ -25,6 +25,7 @@ class HomeNavigationStackView: UIStackView{
         heightAnchor.constraint(equalToConstant: 80).isActive = true
         tinderIconImage.contentMode = .scaleAspectFit
         //for 부분에 뭐오는거지
+        //alwaysOriginal 하는 이유: 안해주면 기본 시스템파란색으로나오니까
         settingButton.setImage(#imageLiteral(resourceName: "top_left_profile").withRenderingMode(.alwaysOriginal), for: .normal)
         messageButton.setImage(#imageLiteral(resourceName: "top_messages_icon").withRenderingMode(.alwaysOriginal), for: .normal)
         
